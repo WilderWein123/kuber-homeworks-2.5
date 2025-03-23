@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: lesson24-token
+  annotations:
+    kubernetes.io/service-account.name: lesson24
+type: kubernetes.io/service-account-token
